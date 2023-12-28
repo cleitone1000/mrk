@@ -1,12 +1,18 @@
 /* Paleta de Cores */
 :root {
   --cor-primaria: #F2163E; /* Vermelho - Cor principal para o cabeçalho e rodapé */
-  --cor-fundo-menu: #8263F2; /* Roxo - Cor de fundo para o menu */
-  --cor-texto-menu: white; /* Branco - Cor do texto no menu */
+  --cor-fundo-menu: #ffffff; /* Roxo - Cor de fundo para o menu */
+  --cor-texto-menu: #011126; /* Branco - Cor do texto no menu */
   --cor-fundo-body: #011126; /* Azul Escuro - Cor de fundo para o corpo da página */
   --cor-texto-body: #F2F2F2; /* Cinza - Cor do texto no corpo da página */
 
   font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
 }
 
 body {
@@ -15,8 +21,13 @@ body {
   background-color: var(--cor-fundo-body);
   color: var(--cor-texto-body);
 }
+
+main {
+  display: inline;
+}
 section {
   width: 100%;
+  height: 20em;
 }
 
 section > div {
@@ -25,7 +36,7 @@ section > div {
 
 header {
   background-image: "/imagens/imagem.png";
-  padding: 20px;
+  height: 5em;
   text-align: center;
 }
 
@@ -37,6 +48,7 @@ header img {
 nav {
   background-color: var(--cor-fundo-menu);
   padding: 10px;
+  height: 10em;
 
 }
 
@@ -59,7 +71,7 @@ a {
 }
 
 main {
-  padding: 20px;
+  padding: 0px;
 }
 
 footer {
