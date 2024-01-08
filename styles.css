@@ -34,6 +34,17 @@ section > div {
   width: 50%;
 }
 
+section#home {
+  background-color: var(--cor-fundo-menu);
+  position: relative;
+}
+
+section#home > div{
+  position: absolute;
+  left: 25%;
+  top: 25%;
+}
+
 header {
   background-image: "/imagens/imagem.png";
   height: 5em;
@@ -45,12 +56,6 @@ header img {
   height: auto;
 }
 
-nav {
-  background-color: var(--cor-fundo-menu);
-  padding: 10px;
-  height: 10em;
-
-}
 
 ul {
   list-style-type: none;
