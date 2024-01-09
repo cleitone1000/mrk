@@ -37,12 +37,25 @@ section > div {
 section#home {
   background-color: var(--cor-fundo-menu);
   position: relative;
+  color: black;
 }
 
 section#home > div{
   position: absolute;
   left: 25%;
   top: 25%;
+}
+
+section#home > div > p {
+  margin: 10px;
+}
+
+section#home > div > a {
+  background-color: red;
+  border-radius: 20px;
+  color: white;
+  padding: 10px;
+  margin: 10px;
 }
 
 header {
