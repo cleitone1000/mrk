@@ -92,6 +92,31 @@ main {
   padding: 0px;
 }
 
+section#sobre > div#sobre_texto {
+  position: relative;
+  width: 60%;
+  height: 50%;
+  top: 25%;
+  justify-content: right;
+}
+
+section#sobre > div#sobre_texto > div {
+  position: relative;
+  width: 70%;
+  height: 50;
+  top: 25%;
+}
+
+section#servicos {
+  background-color: var(--cor-fundo-menu);
+  color: black;
+}
+
+section#mensagem {
+  background-color: var(--cor-fundo-menu);
+  color: black;
+}
+
 footer {
   background-color: var(--cor-primaria);
   color: white;
