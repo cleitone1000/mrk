@@ -83,9 +83,25 @@ li {
   margin: 0 10px;
 }
 
+div#header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: baseline;flex-wrap: nowrap;
+}
+
+div#header > h1 {
+  text-wrap: nowrap;
+}
+
+div#header > p {
+  text-wrap: nowrap;
+}
+
 a {
   text-decoration: none;
   color: var(--cor-texto-menu);
+  text-wrap: nowrap;
 }
 
 main {
