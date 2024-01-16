@@ -116,22 +116,27 @@ main {
 section#sobre > div#sobre_texto {
   position: relative;
   width: 60%;
-  height: 50%;
-  top: 25%;
+  height: 100%;
+  
   justify-content: right;
+  align-items: center;
   display: flex;
-}
-
-section#sobre > div#sobre_texto > div {
-  position: relative;
-  width: 70%;
-  height: 50%;
-  top: 25%;
   
 }
 
-section > div > div > p {
+section#sobre > div#sobre_texto > div {
+  
+  
+  width: 75%;
+  height: 50%;
+  
+}
+
+section#sobre > div > div > p {
   text-wrap: nowrap;
+  font-size:0.7em;
+  
+  
 }
 
 section#servicos {
