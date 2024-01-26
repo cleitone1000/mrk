@@ -113,30 +113,44 @@ main {
   padding: 0px;
 }
 
+section#sobre {
+  display: flex;
+}
+
 section#sobre > div#sobre_texto {
+  display: flex;
   position: relative;
+  flex-direction: row-reverse;
   width: 60%;
   height: 100%;
   
-  justify-content: right;
+  justify-content: flex-start;
   align-items: center;
-  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  gap: 20px;
+
+
   
 }
 
-section#sobre > div#sobre_texto > div {
-  
-  
-  width: 75%;
-  height: 50%;
-  
-}
-
-section#sobre > div > div > p {
+section#sobre > div > p {
   text-wrap: nowrap;
   font-size:0.7em;
+  flex: 1;
+  text-align: end;
   
   
+}
+
+div.imagem {
+  display: flex;
+}
+
+section#sobre > div > img {
+  position: relative;
+  height: 100%;
+  width: 100%;
 }
 
 section#servicos {
