@@ -121,6 +121,7 @@ section#sobre > div#sobre_texto {
   display: flex;
   position: relative;
   flex-direction: row-reverse;
+
   width: 60%;
   height: 100%;
   
@@ -145,9 +146,12 @@ section#sobre > div > p {
 
 div.imagem {
   display: flex;
+  width: 50%;
 }
 
-section#sobre > div > img {
+section#sobre >
+
+section#sobre > div > picture > img {
   position: relative;
   height: 100%;
   width: 100%;
