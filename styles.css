@@ -106,23 +106,21 @@ section#sobre {
   flex-wrap: wrap;
 }
 
-/* Adicione estas regras ao seu arquivo styles.css */
-
 section#sobre > div#sobre_texto {
   display: flex;
-  flex-direction: row-reverse; /* Reverte a direção do flex */
-  justify-content: flex-start; /* Alinha os itens no início da linha */
-  align-items: center; /* Alinha os itens verticalmente */
-  flex-wrap: wrap; /* Permite que os itens quebrem em várias linhas */
-  align-content: center; /* Alinha as linhas verticalmente */
-  width: 50%; /* Define a largura da div */
-  height: auto; /* Altura automática */
+  flex-direction: row-reverse;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  align-content: center;
+  width: 50%;
+  height: auto;
 }
 
 section#sobre > div#sobre_texto > p {
-  width: 50%; /* Define a largura de cada parágrafo */
-  box-sizing: border-box; /* Inclui padding e borda na largura */
-  padding: 10px; /* Espaçamento interno para os parágrafos */
+  width: 50%;
+  box-sizing: border-box;
+  padding: 10px;
 }
 
 div.imagem {
@@ -139,8 +137,6 @@ section#sobre > div > picture > img {
   height: 100%;
   object-fit: cover;
 }
-
-
 
 /* Seção de estilos para os serviços e mensagens */
 section#servicos,
