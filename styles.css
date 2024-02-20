@@ -149,6 +149,18 @@ section#mensagem {
   color: black;
 }
 
+p.titulo {
+  color: var(--cor-primaria);
+}
+
+section#servicos > p#fazemos {
+  display: block;
+}
+
+section#servicos > h2{
+  display: block;
+  font-weight: bolder;
+}
 footer {
   background-color: var(--cor-primaria);
   color: white;
