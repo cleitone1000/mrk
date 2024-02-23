@@ -24,7 +24,7 @@ body {
 }
 
 p {
-  font:1em;
+  font-size:1em;
 }
 main {
   display: inline;
@@ -166,8 +166,9 @@ section#servicos > div {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  gap: 1em;
-  max-height: 300px;
+  gap:1em;
+  max-height: 1000px;
+  min-width: 400px;
 }
 
 section#servicos > div > #servicos_texto {
