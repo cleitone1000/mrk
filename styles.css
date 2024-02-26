@@ -210,3 +210,34 @@ footer {
   text-align: center;
   padding: 10px;
 }
+
+section#estrategia {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+section#estrategia > div#estrategia_texto {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+  align-content: center;
+  width: 50%;
+  height: auto;
+}
+
+section#estrategia > div#estrategia_texto > p {
+  width: 50%;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+section#estrategia > div#estrategia_texto > ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+  
+}
