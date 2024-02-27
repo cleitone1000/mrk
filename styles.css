@@ -5,6 +5,7 @@
   --cor-texto-menu: #011126; /* Branco - Cor do texto no menu */
   --cor-fundo-body: #011126; /* Azul Escuro - Cor de fundo para o corpo da página */
   --cor-texto-body: #F2F2F2; /* Cinza - Cor do texto no corpo da página */
+  --cor-h2: #03A696; /* Verde subtitulo estratégia */
 
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -24,7 +25,7 @@ body {
 }
 
 p {
-  font-size:1em;
+  font-size:0.8em;
 }
 main {
   display: inline;
@@ -213,7 +214,8 @@ footer {
 
 section#estrategia {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
+  font-size:1em;
 }
 
 section#estrategia > div#estrategia_texto {
@@ -225,12 +227,19 @@ section#estrategia > div#estrategia_texto {
   align-content: center;
   width: 50%;
   height: auto;
+  padding: 1em;
+}
+
+section#estrategia > div#estrategia_texto > h2 {
+  color:var(--cor-h2) ;
+  font-size: 0.8em;
 }
 
 section#estrategia > div#estrategia_texto > p {
   width: 50%;
   box-sizing: border-box;
   padding: 10px;
+
 }
 
 section#estrategia > div#estrategia_texto > ul {
@@ -239,5 +248,6 @@ section#estrategia > div#estrategia_texto > ul {
   justify-content: center;
   align-items: flex-start;
   flex-wrap: nowrap;
+  font-size: 0.8em;
   
 }
