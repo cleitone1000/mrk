@@ -261,19 +261,40 @@ section#melhores {
   
 }
 
+section#melhores > div.imagem {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 1px;
+}
 section#melhores > div.imagem > img {
   max-width: 50%;
-  
+  margin: 1px;
 }
 
 section#melhores > div#melhores_texto {
   color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
 }
 
 section#melhores > div#melhores_texto > a {
-  background-color: red;
+
+  border: 1px solid red;
   border-radius: 20px;
-  color: white;
+  color: red;
   padding: 10px;
   margin: 10px;
+}
+
+section#mensagem {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--cor-fundo-body);
+  color: white;
 }
