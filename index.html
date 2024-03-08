@@ -110,7 +110,7 @@
     </section>
 
   
-  <section id="mensagem">
+  <section id="msg">
     <div>
       <h2>
         Entre em contato conosco!
@@ -130,15 +130,24 @@
       document.getElementById("enviar").addEventListener("click", function() {
           var nome = document.getElementById("nome").value;
           var celular = document.getElementById("celular").value;
-          var mensagem = document.getElementById("mensagem").value;
-
-          var url = "https://api.whatsapp.com/send?phone=5511972898685&text=Olá,%20meu%20nome%20é%20" + nome + "%20e%20minha%20mensagem%20é:%20" + mensagem;
-
+          var mensagemTexto = document.getElementById("mensagem").value;
+    
+          // Verificar se o campo de mensagem não está vazio
+          if (mensagemTexto.trim() === "") {
+              alert("Por favor, insira uma mensagem.");
+              return; // Evitar a construção da URL se o campo de mensagem estiver vazio
+          }
+    
+          var mensagemFormatada = encodeURIComponent("Olá, meu nome é " + nome + " e minha mensagem é: " + mensagemTexto);
+          var url = "https://api.whatsapp.com/send?phone=5511972898685&text=" + mensagemFormatada;
+    
           window.open(url, "_blank");
       });
-  </script>
+    </script>
+    
+    
 
-      <a href="#mensagem">ENVIAR MENSAGEM</a>
+      <a href="#msg">ENVIAR MENSAGEM</a>
       
     </div>
   </section>

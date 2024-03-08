@@ -149,7 +149,7 @@ section#sobre > div > picture > img {
 
 /* Seção de estilos para os serviços e mensagens */
 section#servicos,
-section#mensagem {
+section#msg {
   background-color: var(--cor-fundo-menu);
   color: black;
 }
@@ -290,7 +290,7 @@ section#melhores > div#melhores_texto > a {
   margin: 10px;
 }
 
-section#mensagem {
+section#msg {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -301,7 +301,7 @@ section#mensagem {
 
 }
 
-section#mensagem > div {
+section#msg > div {
   display: grid;
   flex-direction: column;
 
