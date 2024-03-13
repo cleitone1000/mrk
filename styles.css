@@ -21,7 +21,7 @@ body {
   font-family: 'Arial', sans-serif;
   background-color: var(--cor-fundo-body);
   color: var(--cor-texto-body);
-  width: 100%;
+  
 }
 
 p {
@@ -37,7 +37,7 @@ section {
 }
 
 section > div {
-  width: 50%;
+  /*width: 50%;*/
 }
 
 section#home {
@@ -173,10 +173,10 @@ section#servicos > div {
 }
 
 section#servicos > div > #servicos_texto {
-  display: grid;
-  flex-direction: column;
-  grid-template-columns: 50% 50%;
-  flex-wrap: wrap;
+  display: flex;
+  flex-direction: row;
+  /*grid-template-columns: 50% 50%;*/
+  flex-wrap: nowrap;
   gap: 1em;
 }
 
@@ -328,9 +328,10 @@ textarea {
   width: 100%;
   padding: 10px;
   margin-bottom: 15px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
+  border: 1px solid white;
+  border-radius: 3em;
   box-sizing: border-box;
+  background-color: var(--cor-fundo-body);
 }
 
 button {
