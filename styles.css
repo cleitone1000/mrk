@@ -352,9 +352,19 @@ button:hover {
 section#footer {
   display: flex;
   flex-direction: row;
+  justify-content: center;
+  align-items: center;
   padding: 1em;
   background-color: var(--cor-fundo-footer);
-  margin: 10% 20%;
+  
+}
+
+
+
+section#footer > div > nav > ul{
+  color: white;
+  display: flex;
+  flex-direction: column;
 }
 
 
